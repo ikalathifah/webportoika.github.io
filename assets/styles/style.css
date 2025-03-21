@@ -179,7 +179,8 @@
   .psninstagram-link,
   .spiritinstagram-link,
   .credentials-link,
-  .githubsanbercode-link {
+  .githubsanbercode-link,
+  .vcgamersweb-link {
     display: inline-block;
     text-decoration: none;
     color: purple;
@@ -200,7 +201,8 @@
   .spiritinstagram-link:hover,
   .credentials-link:hover,
   .githubsanbercode-link:hover,
-  .certifsanbercode-link:hover {
+  .certifsanbercode-link:hover,
+  .vcgamersweb-link:hover {
     color: #E1306C;
   }
 
