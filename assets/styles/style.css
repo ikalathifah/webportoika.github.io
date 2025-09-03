@@ -159,7 +159,8 @@ main aside .social-media li a:hover {
 .spiritinstagram-link,
 .credentials-link,
 .githubsanbercode-link,
-.vcgamersweb-link {
+.vcgamersweb-link,
+.itekrafweb-link {
   display: inline-block;
   text-decoration: none;
   color: purple;
@@ -181,7 +182,8 @@ main aside .social-media li a:hover {
 .credentials-link:hover,
 .githubsanbercode-link:hover,
 .certifsanbercode-link:hover,
-.vcgamersweb-link:hover {
+.vcgamersweb-link:hover,
+.itekrafweb-link:hover {
   color: #E1306C;
 }
 
