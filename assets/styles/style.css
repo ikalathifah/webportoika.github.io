@@ -230,27 +230,25 @@ main aside .social-media li a:hover {
   color: #555;
 }
 
-  .cv-button {
+.cv-button {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 12px;
-  background-color: #8D0B41; /* samain sama tema */
+  justify-content: center;
+  padding: 10px;
+  background-color: #8D0B41;
   color: white !important;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
+  border-radius: 10px;
   transition: all 0.2s ease-in-out;
-  }
+}
 
-  .cv-button:hover {
+.cv-button:hover {
   background-color: #5f072b;
-  transform: scale(1.05);
-  }
+  transform: scale(1.1);
+}
 
-  .cv-button span {
+.cv-button span {
   font-size: 13px;
-  }
+}
 
 /* === MEDIA QUERIES FOR RESPONSIVENESS === */
 
