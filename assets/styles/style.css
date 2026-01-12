@@ -230,7 +230,7 @@ main aside .social-media li a:hover {
   color: #555;
 }
 
-.cv-button {
+/* .cv-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,11 +239,16 @@ main aside .social-media li a:hover {
   color: white !important;
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
+} */
+
+.cv-button {
+  background-color: transparent;
+  color: #8D0B41 !important;
+  padding: 0;
 }
 
 .cv-button:hover {
-  background-color: #5f072b;
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 .cv-button span {
