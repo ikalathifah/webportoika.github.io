@@ -240,27 +240,24 @@ main aside .social-media li a:hover {
   gap: 10px;
   padding: 12px 16px;
   background-color: #8D0B41;
-  color: #ffffff !important;
   border-radius: 12px;
+  color: white;
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
-  white-space: nowrap;
   transition: all 0.25s ease;
-}
-
-.cv-button i {
-  font-size: 1.3rem;
-  line-height: 1;
-}
-
-.cv-button span {
-  line-height: 1;
+  white-space: nowrap;
 }
 
 .cv-button:hover {
   background-color: #5f072b;
   transform: translateX(-4px);
+}
+
+.cv-icon {
+  width: 28px;
+  height: auto;
+  display: block;
 }
 
 /* === MEDIA QUERIES FOR RESPONSIVENESS === */
