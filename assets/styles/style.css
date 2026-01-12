@@ -234,24 +234,19 @@ main aside .social-media li a:hover {
   list-style: none;
 }
 
-.cv-button {
+.cv-button-icon {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 16px;
-  background-color: #8D0B41;
-  border-radius: 12px;
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  text-decoration: none;
-  transition: all 0.25s ease;
-  white-space: nowrap;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: transparent; /* biar nyatu */
+  transition: transform 0.2s ease;
 }
 
-.cv-button:hover {
-  background-color: #5f072b;
-  transform: translateX(-4px);
+.cv-button-icon:hover {
+  transform: scale(1.15);
 }
 
 .cv-icon {
